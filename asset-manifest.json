@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stick-talk-invite/static/css/main.cda5e7bc.css",
+    "main.js": "/stick-talk-invite/static/js/main.485a44f2.js",
+    "static/media/apple.png": "/stick-talk-invite/static/media/apple.e1122bc2bf097d6a5f95.png",
+    "index.html": "/stick-talk-invite/index.html",
+    "main.cda5e7bc.css.map": "/stick-talk-invite/static/css/main.cda5e7bc.css.map",
+    "main.485a44f2.js.map": "/stick-talk-invite/static/js/main.485a44f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cda5e7bc.css",
+    "static/js/main.485a44f2.js"
+  ]
+}
