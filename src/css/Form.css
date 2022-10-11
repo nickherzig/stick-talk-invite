@@ -1,0 +1,14 @@
+.form-box{
+    min-width: 50%;
+    display: block;
+    padding: 2vw ;
+
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+}
+
+.form-box input, textarea{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

@@ -1,0 +1,22 @@
+.Info {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(192, 192, 192);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+img {
+  max-width: 25vw;
+  max-height: 25vw;
+  height: auto;
+  width: auto; /* ie8 */
+}
+
+
+
