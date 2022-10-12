@@ -1,14 +1,14 @@
 import React, {useState} from 'react';
 import Typewriter from "typewriter-effect";
-import logo from '../images/apple.png';
+import logo from '../images/logo.png';
 import '../css/Info.css';
 
 function Info() {
     const what = "What: Stick Talk annual Halloween renegade"
-    const where = "Where: Joshua Tree, CA (-23.1231321, 39.3124143)"
+    const where = "Where: Mojave, CA (-23.1231321, 39.3124143)"
     const when = "When: October 29th, 2022"
-    const bring = "What to bring: dancing shoes"
-    const leave = "What to leave: worries"
+    const bring = "What to bring: dancing shoes and costumes"
+    const RSVP = "RSVP: $10 per person to @stick-talkin on venmo"
 
     var tw_options = {
         cursor: '',
@@ -18,6 +18,7 @@ function Info() {
   return (
     <div className="Info">
         <img src={logo} />
+        <h1>STICK TALK</h1>
       <Typewriter
         options={tw_options}
         onInit={(typewriter) => {
@@ -59,12 +60,10 @@ function Info() {
         onInit={(typewriter) => {
             typewriter
             .pauseFor(4000)
-            .typeString(leave)
+            .typeString(RSVP)
             .start();
         }}
         />
-        <br></br>
-        <p>Suggested donation of $10 per person to @stick-talkin on venmo</p>
     </div>
   );
 }

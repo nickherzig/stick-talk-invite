@@ -5,12 +5,12 @@ import Form from '../components/Form.js';
 import '../css/Home.css';
 
 function Home() {
-  const riddle = "What's 9+10?"
-  const answer = "21"
+  const riddle = "This is just a test of what this could be?"
+  const answer = "password"
   const navigate = useNavigate();
-  const responses = ["guess again", "come on you got this", "one more and you get a hint!"]
+  const responses = ["guess again", "come on you got this", "so close"]
   const [checks, setChecks] = useState({ text: '' });
-  var incorrect_guesses = 0
+  const [incorrect_guesses, set_incorrect_guesses] = useState(0)
 
   function changePage(guess){
     if (guess === answer) {
@@ -20,7 +20,7 @@ function Home() {
     else {
       console.log("incorrect\n");
       setChecks({text: responses[incorrect_guesses%responses.length]})
-      incorrect_guesses = incorrect_guesses + 1;
+      set_incorrect_guesses(incorrect_guesses + 1)
     }
   }
 
