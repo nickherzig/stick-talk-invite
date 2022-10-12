@@ -13,7 +13,7 @@ function Home() {
   const [incorrect_guesses, set_incorrect_guesses] = useState(0)
 
   function changePage(guess){
-    if (guess === answer) {
+    if (guess.toLowerCase() === answer) {
       console.log("boo yah\n");
       navigate('/info');
     }
