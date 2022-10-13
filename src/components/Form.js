@@ -9,16 +9,18 @@ function Form(props) {
         setGuess({userGuess: ''});
       };
 
+    
+
     return (
         <div className = "form-box">
-        <form>
+        <form onSubmit={submitForm}>
         <input
             type="text"
             name="answer"
             id="answer"
             value={guess.userGuess}
             onChange={event => setGuess({ userGuess: event.target.value })} />
-        <input className='btn' type="submit" value="Guess" onClick={submitForm} />
+        <input className='btn' type="submit" value="Guess"/>
         </form>
         </div>
       );

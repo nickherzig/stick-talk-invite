@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Typewriter from "typewriter-effect";
-import logo from '../images/logo.png';
+import logo from '../images/logo.gif';
 import '../css/Info.css';
 
 function Info() {

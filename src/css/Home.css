@@ -1,5 +1,4 @@
 .Home {
-    text-align: center;
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     display: flex;
@@ -10,6 +9,12 @@
     color: rgb(0, 0, 0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   }
+
+.form {
+    text-align: center;
+    padding-right: 3%;
+
+}
 
 .typewrite{
     display: flex;
@@ -22,3 +27,4 @@
     color: rgb(227, 0, 0);
     font-size: calc(3px + 2vmin);
 }
+

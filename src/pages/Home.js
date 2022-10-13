@@ -6,7 +6,7 @@ import '../css/Home.css';
 
 function Home() {
   const riddle = "This is just a test of what this could be?"
-  const answer = "password"
+  const answer = "stick talk"
   const navigate = useNavigate();
   const responses = ["guess again", "come on you got this", "so close"]
   const [checks, setChecks] = useState({ text: '' });
@@ -26,24 +26,20 @@ function Home() {
 
   return (
     <div className="Home">
-     <div className="typewriter">
-      <Typewriter
-        onInit={(typewriter) => {
-          typewriter.typeString(riddle)
-            .start();
-        }}
-      />
-      <div className='response'>
-      <Typewriter
-        options={{
-          strings: [checks.text],
-          autoStart: true,
-          cursor: '',
-        }}
-        />
-        </div>
-      </div>
+      <p>So it appears to me,<br />
+         That there is an issue...<br />
+         I don't know the password.<br />
+         Can you help me figure it out?<br />
+         Knoweledge is everything<br /><br />
+
+         There, right in the box.<br />
+         Any clues?<br />
+         Like I said before...<br />
+         Knoweledge is everything<br />
+      </p>
+    <div className='form'>
     <Form handleSubmit={changePage} />
+    </div>
     </div>
   );
 }
