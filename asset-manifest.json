@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stick-talk-invite/static/css/main.e1400caf.css",
-    "main.js": "/stick-talk-invite/static/js/main.7a3ca078.js",
-    "static/media/logo.png": "/stick-talk-invite/static/media/logo.f50ec000feef0f6a8a94.png",
+    "main.css": "/stick-talk-invite/static/css/main.f166e213.css",
+    "main.js": "/stick-talk-invite/static/js/main.c1e5aa76.js",
+    "static/media/logo.gif": "/stick-talk-invite/static/media/logo.33562dc9f221daf9d32b.gif",
     "index.html": "/stick-talk-invite/index.html",
-    "main.e1400caf.css.map": "/stick-talk-invite/static/css/main.e1400caf.css.map",
-    "main.7a3ca078.js.map": "/stick-talk-invite/static/js/main.7a3ca078.js.map"
+    "main.f166e213.css.map": "/stick-talk-invite/static/css/main.f166e213.css.map",
+    "main.c1e5aa76.js.map": "/stick-talk-invite/static/js/main.c1e5aa76.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1400caf.css",
-    "static/js/main.7a3ca078.js"
+    "static/css/main.f166e213.css",
+    "static/js/main.c1e5aa76.js"
   ]
 }
