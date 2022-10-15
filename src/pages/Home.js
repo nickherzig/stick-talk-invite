@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Typewriter from "typewriter-effect";
-import {Routes, Route, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import Form from '../components/Form.js';
 import '../css/Home.css';
 
@@ -35,7 +35,7 @@ function Home() {
          There, right in the box.<br />
          Any clues?<br />
          Like I said before...<br />
-         Knoweledge is everything<br />
+         Knowledge is everything<br />
       </p>
     <div className='form'>
     <Form handleSubmit={changePage} />
