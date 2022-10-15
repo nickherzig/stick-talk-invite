@@ -30,7 +30,7 @@ function Home() {
          That there is an issue...<br />
          I don't know the password.<br />
          Can you help me figure it out?<br />
-         Knoweledge is everything<br /><br />
+         Knowledge is everything<br /><br />
 
          There, right in the box.<br />
          Any clues?<br />
